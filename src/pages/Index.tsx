@@ -226,44 +226,19 @@ const ContactSection = () => {
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-display font-bold neon-glow-blue text-primary mb-4">{t.contact.title}</h2>
         <p className="text-muted-foreground max-w-xl mx-auto mb-12 text-lg">{t.contact.subtitle}</p>
-        <div className="grid md:grid-cols-2 gap-12">
-          <div className="text-left space-y-6">
-            <div>
-              <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Email</p>
-              <a href={`mailto:${t.contact.email}`} className="text-primary hover:underline">{t.contact.email}</a>
-            </div>
-            <div>
-              <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Phone</p>
-              <p className="text-foreground">{t.contact.phone}</p>
-            </div>
-            <div>
-              <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Address</p>
-              <p className="text-foreground">{t.contact.address}</p>
-            </div>
+        <div className="flex flex-col items-center space-y-6">
+          <div>
+            <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Email</p>
+            <a href={`mailto:${t.contact.email}`} className="text-primary hover:underline">{t.contact.email}</a>
           </div>
-          <form className="space-y-4 text-left" onSubmit={(e) => e.preventDefault()}>
-            <input
-              type="text"
-              placeholder={t.contact.formName}
-              className="w-full px-4 py-3 rounded-xl bg-card border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
-            />
-            <input
-              type="email"
-              placeholder={t.contact.formEmail}
-              className="w-full px-4 py-3 rounded-xl bg-card border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
-            />
-            <textarea
-              rows={4}
-              placeholder={t.contact.formMessage}
-              className="w-full px-4 py-3 rounded-xl bg-card border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 resize-none"
-            />
-            <button
-              type="submit"
-              className="w-full py-3 rounded-xl bg-primary text-primary-foreground font-display font-bold text-sm uppercase tracking-wider neon-box-blue hover:scale-105 transition-transform"
-            >
-              {t.contact.formSubmit}
-            </button>
-          </form>
+          <div>
+            <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Phone</p>
+            <p className="text-foreground">{t.contact.phone}</p>
+          </div>
+          <div>
+            <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Address</p>
+            <p className="text-foreground">{t.contact.address}</p>
+          </div>
         </div>
       </div>
     </Section>
