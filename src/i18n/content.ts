@@ -60,7 +60,7 @@ export const content: Record<
         "Experience the thrill of our AI-powered robotic claw machine — smarter, faster, and more fun than ever.",
       cta: "Learn More",
       // Replace with your actual video URL (YouTube embed, MP4, etc.)
-      videoUrl: "https://youtu.be/8GDxISN4y3g?autoplay=1&mute=1&loop=1&controls=0&showinfo=0",
+      videoUrl: "https://www.youtube.com/embed/8GDxISN4y3g?autoplay=1&mute=1&loop=1&controls=0&showinfo=0",
     },
     about: {
       title: "What is Robopopki?",
@@ -168,7 +168,7 @@ export const content: Record<
       title: "아케이드 게임의 미래",
       subtitle: "AI 기반 로봇 뽑기 기계의 스릴을 경험하세요 — 더 스마트하고, 더 빠르고, 더 재미있습니다.",
       cta: "자세히 보기",
-      videoUrl: "https://youtu.be/8GDxISN4y3g?autoplay=1&mute=1&loop=1&controls=0&showinfo=0",
+      videoUrl: "https://www.youtube.com/embed/8GDxISN4y3g?autoplay=1&mute=1&loop=1&controls=0&showinfo=0",
     },
     about: {
       title: "로보뽑기란?",
