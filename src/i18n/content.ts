@@ -60,7 +60,8 @@ export const content: Record<
         "Experience the thrill of our AI-powered robotic claw machine — smarter, faster, and more fun than ever.",
       cta: "Learn More",
       // Replace with your actual video URL (YouTube embed, MP4, etc.)
-      videoUrl: "https://www.youtube.com/embed/8GDxISN4y3g?autoplay=1&mute=1&loop=1&playlist=8GDxISN4y3g&controls=0&showinfo=0&rel=0&modestbranding=1",
+      videoUrl:
+        "https://www.youtube.com/embed/8GDxISN4y3g?autoplay=1&mute=1&loop=1&playlist=8GDxISN4y3g&controls=0&showinfo=0&rel=0&modestbranding=1",
     },
     about: {
       title: "What is Robopopki?",
@@ -145,7 +146,7 @@ export const content: Record<
     contact: {
       title: "Contact Us",
       subtitle: "Ready to bring Robopopki to your venue? Get in touch!",
-      email: "hello@robopopki.com",
+      email: "info@robopopki.com",
       phone: "+82-010-8505-9134",
       address: "Seoul, South Korea",
       formName: "Your Name",
@@ -168,7 +169,8 @@ export const content: Record<
       title: "아케이드 게임의 미래",
       subtitle: "AI 기반 로봇 뽑기 기계의 스릴을 경험하세요 — 더 스마트하고, 더 빠르고, 더 재미있습니다.",
       cta: "자세히 보기",
-      videoUrl: "https://www.youtube.com/embed/8GDxISN4y3g?autoplay=1&mute=1&loop=1&playlist=8GDxISN4y3g&controls=0&showinfo=0&rel=0&modestbranding=1",
+      videoUrl:
+        "https://www.youtube.com/embed/8GDxISN4y3g?autoplay=1&mute=1&loop=1&playlist=8GDxISN4y3g&controls=0&showinfo=0&rel=0&modestbranding=1",
     },
     about: {
       title: "로보뽑기란?",
@@ -237,7 +239,7 @@ export const content: Record<
     contact: {
       title: "문의하기",
       subtitle: "로보뽑기를 도입하고 싶으신가요? 연락주세요!",
-      email: "hello@robopopki.com",
+      email: "info@robopopki.com",
       phone: "+82-010-8505-9134",
       address: "서울, 대한민국",
       formName: "이름",
