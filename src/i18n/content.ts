@@ -132,8 +132,8 @@ export const content: Record<
       subtitle: "We stand behind every Robopopki unit with world-class support.",
       items: [
         {
-          title: "24/7 Remote Support",
-          description: "Our team monitors your machines around the clock and can resolve most issues remotely.",
+          title: "In-Person & Remote Support",
+          description: "Our team provides both on-site and remote assistance to resolve issues quickly.",
         },
         {
           title: "On-Site Maintenance",
@@ -204,20 +204,20 @@ export const content: Record<
       plans: [
         {
           name: "스타터",
-          price: "₩3,500,000",
+          price: "TBA",
           period: "대당",
           features: ["로보뽑기 1대", "기본 AI 모드", "6개월 보증", "원격 모니터링"],
         },
         {
           name: "비즈니스",
-          price: "₩8,900,000",
+          price: "TBA",
           period: "3대 번들",
           features: ["로보뽑기 3대", "고급 AI 모드", "1년 보증", "우선 지원", "분석 대시보드"],
           highlighted: true,
         },
         {
           name: "엔터프라이즈",
-          price: "맞춤 견적",
+          price: "TBA",
           period: "문의",
           features: ["무제한 대수", "맞춤 브랜딩", "평생 보증", "전담 매니저", "현장 설치"],
         },
@@ -228,8 +228,8 @@ export const content: Record<
       subtitle: "모든 로보뽑기에 최고 수준의 지원을 제공합니다.",
       items: [
         {
-          title: "24/7 원격 지원",
-          description: "저희 팀이 24시간 기기를 모니터링하며 대부분의 문제를 원격으로 해결합니다.",
+          title: "현장 및 원격 지원",
+          description: "현장 방문과 원격 지원을 통해 문제를 신속하게 해결합니다.",
         },
         { title: "현장 유지보수", description: "정기적인 유지보수 방문으로 최상의 성능을 유지합니다." },
         { title: "부품 및 수리", description: "48시간 이내 전 세계 순정 부품 배송." },
