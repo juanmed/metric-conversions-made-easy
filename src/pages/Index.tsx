@@ -19,7 +19,7 @@ const Navbar = () => {
       className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 backdrop-blur-xl bg-background/70 border-b border-border"
     >
       <button onClick={() => scrollTo("hero")} className="flex items-center gap-2">
-        <img src={logo} alt="Robopopki" className="h-14" />
+        <img src={logo} alt="Robopopki" className="h-20" />
       </button>
       <div className="hidden md:flex items-center gap-8">
         {navIds.map((id) => (
