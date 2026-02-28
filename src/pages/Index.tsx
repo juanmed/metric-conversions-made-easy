@@ -16,17 +16,17 @@ const Navbar = () => {
     <motion.nav
       initial={{ y: -80 }}
       animate={{ y: 0 }}
-      className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-3 backdrop-blur-xl bg-background/70 border-b border-border"
+      className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 backdrop-blur-xl bg-background/70 border-b border-border"
     >
       <button onClick={() => scrollTo("hero")} className="flex items-center gap-2">
-        <img src={logo} alt="Robopopki" className="h-8" />
+        <img src={logo} alt="Robopopki" className="h-14" />
       </button>
       <div className="hidden md:flex items-center gap-8">
         {navIds.map((id) => (
           <button
             key={id}
             onClick={() => scrollTo(id)}
-            className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-wider"
+            className="text-base font-bold text-muted-foreground hover:text-primary transition-colors uppercase tracking-wider"
           >
             {t.nav[id]}
           </button>
