@@ -19,7 +19,7 @@ const Navbar = () => {
       className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 backdrop-blur-xl bg-background/70 border-b border-border"
     >
       <button onClick={() => scrollTo("hero")} className="flex items-center gap-2">
-        <img src={logo} alt="Robopopki" className="h-14" />
+        <img src={logo} alt="Robopopki" className="h-18" />
       </button>
       <div className="hidden md:flex items-center gap-8">
         {navIds.map((id) => (
@@ -64,7 +64,10 @@ const HeroSection = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/20 to-background" />
       </motion.div>
-      <motion.div style={{ opacity }} className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
+      <motion.div
+        style={{ opacity }}
+        className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6"
+      >
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -115,7 +118,9 @@ const AboutSection = () => {
   return (
     <Section id="robopopki">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-display font-bold neon-glow-blue text-primary mb-4">{t.about.title}</h2>
+        <h2 className="text-4xl md:text-5xl font-display font-bold neon-glow-blue text-primary mb-4">
+          {t.about.title}
+        </h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mb-16 text-lg">{t.about.subtitle}</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {t.about.features.map((f, i) => (
@@ -144,7 +149,9 @@ const PricingSection = () => {
   return (
     <Section id="pricing" className="bg-muted/30">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-display font-bold neon-glow-purple text-secondary mb-4">{t.pricing.title}</h2>
+        <h2 className="text-4xl md:text-5xl font-display font-bold neon-glow-purple text-secondary mb-4">
+          {t.pricing.title}
+        </h2>
         <p className="text-muted-foreground max-w-xl mx-auto mb-16 text-lg">{t.pricing.subtitle}</p>
         <div className="grid md:grid-cols-3 gap-8">
           {t.pricing.plans.map((plan, i) => (
@@ -160,7 +167,9 @@ const PricingSection = () => {
             >
               <h3 className="font-display font-bold text-xl text-foreground mb-2">{plan.name}</h3>
               <div className="mb-1">
-                <span className={`text-4xl font-display font-black ${plan.highlighted ? "text-secondary neon-glow-purple" : "text-primary neon-glow-blue"}`}>
+                <span
+                  className={`text-4xl font-display font-black ${plan.highlighted ? "text-secondary neon-glow-purple" : "text-primary neon-glow-blue"}`}
+                >
                   {plan.price}
                 </span>
               </div>
@@ -224,12 +233,16 @@ const ContactSection = () => {
   return (
     <Section id="contact" className="bg-muted/30">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-display font-bold neon-glow-blue text-primary mb-4">{t.contact.title}</h2>
+        <h2 className="text-4xl md:text-5xl font-display font-bold neon-glow-blue text-primary mb-4">
+          {t.contact.title}
+        </h2>
         <p className="text-muted-foreground max-w-xl mx-auto mb-12 text-lg">{t.contact.subtitle}</p>
         <div className="flex flex-col items-center space-y-6">
           <div>
             <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Email</p>
-            <a href={`mailto:${t.contact.email}`} className="text-primary hover:underline">{t.contact.email}</a>
+            <a href={`mailto:${t.contact.email}`} className="text-primary hover:underline">
+              {t.contact.email}
+            </a>
           </div>
           <div>
             <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Phone</p>
