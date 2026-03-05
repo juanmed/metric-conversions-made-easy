@@ -139,6 +139,22 @@ const AboutSection = () => {
             </motion.div>
           ))}
         </div>
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.4, duration: 0.6 }}
+          className="mt-16 max-w-2xl mx-auto aspect-[9/16] rounded-2xl overflow-hidden neon-border-blue"
+        >
+          <iframe
+            src={t.about.videoUrl}
+            className="w-full h-full"
+            allow="autoplay; encrypted-media; accelerometer; gyroscope"
+            allowFullScreen
+            title="Robopopki demo"
+            style={{ border: 0 }}
+          />
+        </motion.div>
       </div>
     </Section>
   );
