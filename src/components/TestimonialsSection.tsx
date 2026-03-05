@@ -94,24 +94,11 @@ const TestimonialsSection = () => {
                 transition={{ delay: i * 0.1, duration: 0.5 }}
                 className="flex-shrink-0 w-[300px] md:w-[380px] snap-center rounded-2xl bg-card neon-border-blue overflow-hidden flex flex-col"
               >
-                {item.type === "image" ? (
-                  <img
-                    src={imageMap[item.src]}
-                    alt={item.caption}
-                    className="w-full h-56 md:h-64 object-cover"
-                  />
-                ) : (
-                  <div className="w-full h-56 md:h-64">
-                    <iframe
-                      src={item.src}
-                      className="w-full h-full"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      title="Testimonial video"
-                      style={{ border: 0 }}
-                    />
-                  </div>
-                )}
+                <img
+                  src={imageMap[item.src]}
+                  alt={item.caption}
+                  className="w-full h-56 md:h-64 object-cover"
+                />
                 <div className="p-5">
                   <p className="text-sm text-muted-foreground italic leading-relaxed">
                     {item.caption}

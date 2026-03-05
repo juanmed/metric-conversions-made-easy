@@ -20,6 +20,7 @@ export const content: Record<
       title: string;
       subtitle: string;
       features: { icon: string; title: string; description: string }[];
+      videoUrl: string;
     };
     testimonials: {
       title: string;
@@ -94,13 +95,13 @@ export const content: Record<
           description: "Optimized to maximize engagement and revenue for operators.",
         },
       ],
+      videoUrl: "https://www.youtube.com/embed/_C-ClW9-6rI?autoplay=1&mute=1&loop=1&playlist=_C-ClW9-6rI&controls=0&showinfo=0&rel=0&modestbranding=1",
     },
     testimonials: {
       title: "Testimonials",
       subtitle: "See what people are saying about Robopopki!",
       items: [
         { type: "image", src: "testimonial-1", caption: "\"So much fun! The robotic arm was surprisingly precise.\" — Alex K." },
-        { type: "video", src: "https://www.youtube.com/embed/_C-ClW9-6rI", caption: "\"My kids couldn't stop playing — best arcade experience ever!\" — Sarah L." },
         { type: "image", src: "testimonial-2", caption: "\"The controls feel amazing, way better than a traditional claw machine.\" — Minjun P." },
         { type: "image", src: "testimonial-3", caption: "\"Incredible tech meets pure arcade joy. A must-have for any venue!\" — David C." },
       ],
@@ -213,13 +214,13 @@ export const content: Record<
           description: "운영자를 위한 참여도와 수익 극대화에 최적화되었습니다.",
         },
       ],
+      videoUrl: "https://www.youtube.com/embed/_C-ClW9-6rI?autoplay=1&mute=1&loop=1&playlist=_C-ClW9-6rI&controls=0&showinfo=0&rel=0&modestbranding=1",
     },
     testimonials: {
       title: "후기",
       subtitle: "로보뽑기에 대한 사용자 후기를 확인하세요!",
       items: [
         { type: "image", src: "testimonial-1", caption: "\"정말 재밌어요! 로봇 팔이 놀랍도록 정확해요.\" — Alex K." },
-        { type: "video", src: "https://www.youtube.com/embed/_C-ClW9-6rI", caption: "\"아이들이 멈출 수가 없었어요 — 최고의 아케이드 경험!\" — Sarah L." },
         { type: "image", src: "testimonial-2", caption: "\"조작감이 놀라워요, 기존 뽑기보다 훨씬 좋아요.\" — 민준 P." },
         { type: "image", src: "testimonial-3", caption: "\"놀라운 기술과 순수한 아케이드의 즐거움. 필수 아이템!\" — David C." },
       ],
