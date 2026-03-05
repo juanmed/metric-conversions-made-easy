@@ -146,7 +146,7 @@ const AboutSection = () => {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="mt-16 flex flex-col md:flex-row items-center gap-8"
         >
-          <div className="w-56 aspect-[9/16] rounded-2xl overflow-hidden neon-border-blue flex-shrink-0">
+          <div className="w-full md:w-1/2 aspect-[9/16] rounded-2xl overflow-hidden neon-border-blue flex-shrink-0">
             <iframe
               src={t.about.videoUrl}
               className="w-full h-full"
@@ -156,9 +156,11 @@ const AboutSection = () => {
               style={{ border: 0 }}
             />
           </div>
-          <p className="text-xl md:text-2xl font-semibold text-foreground leading-relaxed">
-            Simply grab the robot handle, finish the challenge within the time limit, and grab your prize!
-          </p>
+          <div className="w-full md:w-1/2">
+            <p className="text-xl md:text-2xl font-semibold text-foreground leading-relaxed">
+              Simply grab the robot handle, finish the challenge within the time limit, and grab your prize!
+            </p>
+          </div>
         </motion.div>
       </div>
     </Section>
