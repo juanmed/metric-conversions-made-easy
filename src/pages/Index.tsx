@@ -160,13 +160,13 @@ const AboutSection = () => {
           </div>
           <div className="w-full md:w-1/2 flex flex-col gap-4">
             <p className="text-2xl md:text-4xl font-display font-bold neon-glow-blue text-primary text-left">
-              Grab the robot handle,
+              {t.about.videoLines[0]}
             </p>
             <p className="text-2xl md:text-4xl font-display font-bold neon-glow-purple text-secondary text-right">
-              finish the challenge within the time limit,
+              {t.about.videoLines[1]}
             </p>
             <p className="text-2xl md:text-4xl font-display font-bold neon-glow-green text-accent text-left">
-              and grab your prize!
+              {t.about.videoLines[2]}
             </p>
           </div>
         </motion.div>

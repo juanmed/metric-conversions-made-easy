@@ -21,6 +21,7 @@ export const content: Record<
       subtitle: string;
       features: { icon: string; title: string; description: string }[];
       videoUrl: string;
+      videoLines: [string, string, string];
     };
     testimonials: {
       title: string;
@@ -96,6 +97,11 @@ export const content: Record<
         },
       ],
       videoUrl: "https://www.youtube.com/embed/_C-ClW9-6rI?autoplay=1&mute=1&loop=1&playlist=_C-ClW9-6rI&controls=0&showinfo=0&rel=0&modestbranding=1",
+      videoLines: [
+        "Grab the robot handle,",
+        "finish the challenge within the time limit,",
+        "and grab your prize!",
+      ],
     },
     testimonials: {
       title: "Testimonials",
@@ -215,6 +221,11 @@ export const content: Record<
         },
       ],
       videoUrl: "https://www.youtube.com/embed/_C-ClW9-6rI?autoplay=1&mute=1&loop=1&playlist=_C-ClW9-6rI&controls=0&showinfo=0&rel=0&modestbranding=1",
+      videoLines: [
+        "로봇 손잡이를 잡고,",
+        "제한 시간 안에 도전을 완료하고,",
+        "상품을 뽑아가세요!",
+      ],
     },
     testimonials: {
       title: "후기",
