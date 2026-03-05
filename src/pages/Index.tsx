@@ -144,7 +144,7 @@ const AboutSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.4, duration: 0.6 }}
-          className="mt-16 max-w-2xl mx-auto aspect-[9/16] rounded-2xl overflow-hidden neon-border-blue"
+          className="mt-16 max-w-sm mx-auto aspect-[9/16] rounded-2xl overflow-hidden neon-border-blue"
         >
           <iframe
             src={t.about.videoUrl}
