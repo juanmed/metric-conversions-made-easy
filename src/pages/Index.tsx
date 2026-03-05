@@ -144,16 +144,21 @@ const AboutSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.4, duration: 0.6 }}
-          className="mt-16 max-w-sm mx-auto aspect-[9/16] rounded-2xl overflow-hidden neon-border-blue"
+          className="mt-16 flex flex-col md:flex-row items-center gap-8"
         >
-          <iframe
-            src={t.about.videoUrl}
-            className="w-full h-full"
-            allow="autoplay; encrypted-media; accelerometer; gyroscope"
-            allowFullScreen
-            title="Robopopki demo"
-            style={{ border: 0 }}
-          />
+          <div className="w-56 aspect-[9/16] rounded-2xl overflow-hidden neon-border-blue flex-shrink-0">
+            <iframe
+              src={t.about.videoUrl}
+              className="w-full h-full"
+              allow="autoplay; encrypted-media; accelerometer; gyroscope"
+              allowFullScreen
+              title="Robopopki demo"
+              style={{ border: 0 }}
+            />
+          </div>
+          <p className="text-xl md:text-2xl font-semibold text-foreground leading-relaxed">
+            Simply grab the robot handle, finish the challenge within the time limit, and grab your prize!
+          </p>
         </motion.div>
       </div>
     </Section>
