@@ -158,9 +158,15 @@ const AboutSection = () => {
             />
             </div>
           </div>
-          <div className="w-full md:w-1/2">
-            <p className="text-xl md:text-2xl font-semibold text-foreground leading-relaxed">
-              Simply grab the robot handle, finish the challenge within the time limit, and grab your prize!
+          <div className="w-full md:w-1/2 flex flex-col gap-4">
+            <p className="text-2xl md:text-4xl font-display font-bold neon-glow-blue text-primary text-left">
+              Grab the robot handle,
+            </p>
+            <p className="text-2xl md:text-4xl font-display font-bold neon-glow-purple text-secondary text-right">
+              finish the challenge within the time limit,
+            </p>
+            <p className="text-2xl md:text-4xl font-display font-bold neon-glow-green text-accent text-left">
+              and grab your prize!
             </p>
           </div>
         </motion.div>
