@@ -2,8 +2,9 @@ import { useLang } from "@/contexts/LanguageContext";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import logo from "@/assets/robopopki-logo.png";
+import TestimonialsSection from "@/components/TestimonialsSection";
 
-const navIds = ["robopopki", "pricing", "as", "contact"] as const;
+const navIds = ["robopopki", "testimonials", "pricing", "as", "contact"] as const;
 
 const scrollTo = (id: string) => {
   document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -275,6 +276,7 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <TestimonialsSection />
       <PricingSection />
       <ASSection />
       <ContactSection />
