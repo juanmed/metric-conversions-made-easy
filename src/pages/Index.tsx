@@ -146,7 +146,8 @@ const AboutSection = () => {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="mt-16 flex flex-col md:flex-row items-center gap-8"
         >
-          <div className="w-full md:w-1/2 aspect-[9/16] rounded-2xl overflow-hidden neon-border-blue flex-shrink-0">
+          <div className="w-full md:w-1/2 flex justify-center">
+            <div className="max-w-sm w-full aspect-[9/16] rounded-2xl overflow-hidden neon-border-blue">
             <iframe
               src={t.about.videoUrl}
               className="w-full h-full"
@@ -155,6 +156,7 @@ const AboutSection = () => {
               title="Robopopki demo"
               style={{ border: 0 }}
             />
+            </div>
           </div>
           <div className="w-full md:w-1/2">
             <p className="text-xl md:text-2xl font-semibold text-foreground leading-relaxed">
